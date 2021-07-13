@@ -1,0 +1,167 @@
+
+
+.nav{
+    background-color: #F5F5F5;
+    height: 42px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.nav .nav_container{
+    height: 42px;
+    line-height: 42px;
+    position: relative;
+}
+.nav a{
+    font-size: 13px;
+    color: #3C3C3C;
+}
+.nav a:hover{
+    color: #FF5000;
+}
+
+
+
+.nav ul{
+    display: inline-block;
+}
+.nav li{
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.nav .menu1{
+    position: relative;
+}
+.nav .menu1 li ul{
+    display: none;
+    position: absolute;
+    z-index: 888;
+    height: 340px;
+    width: 300px;
+    overflow: scroll;
+}
+.nav .menu1 li ul li{
+    background-color: white;
+    z-index: 1000;
+    border: 1px solid #eeeeee;
+    display: block;
+    height: 36px;
+    width: 300px;
+    padding-left: 10px;
+}
+.nav .menu1 li:hover ul{
+    display: block;
+}
+
+.nav .menu1 li ul li:hover{
+    background-color: #F5F5F5;
+}
+.nav .menu2{
+    position: absolute;
+    right: 0;
+}
+
+.nav .menu2 li a{
+    margin-left: 4px;
+}
+
+.nav .menu2 li{
+    position: relative;
+}
+.nav .menu2 li:hover{
+    background-color: white;
+}
+.nav .menu2 li:hover ul{
+    display: block;
+}
+.nav .menu2 li ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 999;
+    border: 1px solid #eeeeee;
+}
+
+.nav .menu2 li ul li{
+    height: 30px;
+    line-height: 30px;
+    width: 100px;
+    display: block;
+}
+
+.nav .menu2 li ul li:hover{
+    background-color: #F5F5F5;
+}
+
+.nav .menu2 .nav_on:hover .nav_menu{
+    display: block;
+}
+.nav .menu2 li .nav_menu{
+    position: absolute;
+    right: 0;
+    background-color: #FFFFFF !important;
+    width: 1300px;
+    height: 400px;
+    display: none;
+    z-index: 888;
+}
+
+.nav .menu2 .nav_menu div{
+    float: left;
+    width: 25%;
+    height: 400px;
+}
+
+.nav .menu2 .nav_menu div ul li{
+    width: 60px;
+    border: none;
+}
+.nav .menu2 .nav_menu div ul li:hover{
+    background-color: #F22E00;
+    color: white;
+}
+
+.img_menu{
+    background-image: url("../img/full_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+	box-sizing: border-box;
+	padding: 20px 0;
+    display: none;
+}
+
+
+.img_menu .img_menu_container{
+
+}
+
+.img_menu .img_menu_container .con{
+    width: 209px;
+    height: 82px;
+    float: left;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    overflow: hidden;
+	align-items: center;
+	padding-left: 20px;
+	margin-left: 10px;
+}
+.img_menu .img_menu_container h2{
+    color: white;
+    font-family: "宋体";
+}
+
+.img_menu .img_menu_container p{
+    color: white;
+    font-family: "宋体";
+}
+.img_menu .img_menu_container img{
+    display: inline-block;
+    width: 46px;
+    position: absolute;
+    right: 19px;
+    top: 19px;
+}

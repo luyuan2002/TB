@@ -1,0 +1,123 @@
+
+
+.width_full{
+    width: 100%;
+}
+
+.height_full{
+    height: 100%;
+}
+
+.width_1300{
+    width: 1300px;
+    margin: auto;
+}
+
+.center_vertical{
+    display: flex;
+    align-items: center;
+}
+.center_horizontal{
+    display: flex;
+    justify-content: center;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.radius_bg{
+    background-color: white;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+.indicator{
+    width: 4px;
+    height: 16px;
+    background-color: #F22E00
+}
+
+
+
+
+.emphasis{
+    color: #F22E00;
+    margin-left: 10px;
+    font-size: 22px
+}
+
+/* 设置到ul上面 将li转换成块元素 */
+.cast_inb li{
+    width: 20%;
+    /*display: inline-block;*/
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-left: 0;
+	position: relative;
+}
+.cast_inb li img{
+    width: 100%;
+}
+.border_block li{
+    border: 1px solid #f4f4f4;
+}
+
+.border_block li:hover{
+    border: 1px solid #F22E00;
+}
+
+
+.button_bg{
+    background: linear-gradient(#FF5100,#FF6D05);
+    color: white;
+    outline: none;
+    border: 0;
+    border-radius: 4px;
+    padding: 5px 25px;
+    font-family: "宋体";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* .clearfix::before,.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+ */
+.clearfix::before{
+	content: "";
+	clear: both;
+	display: block;
+}
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.border{
+    border: 1px solid #f4f4f4;
+}
+
+.border:hover{
+    border: 1px solid #F22E00;
+}
+
+
+.content_text{
+	color: #666;
+	line-height: 22px;
+	margin-top: 7px;
+	font-size: 15px;
+	font-weight: normal;
+	transform: color 0.3s;
+	overflow: hidden;
+}

@@ -1,0 +1,209 @@
+
+.main{
+    display: flex;
+    flex-direction: row;
+    background-color: #F4F4F4;
+}
+.main .banner{
+    height: 536px;
+    width: 60%;
+    background-color: #F4F4F4;
+    padding: 8px;
+}
+.main .banner div{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.main .banner .left{
+    width: 76%;
+    height: 100%;
+    float: left;
+}
+
+.main .banner .left .top{
+    width: 100%;
+    height: 66%;
+}
+.main .banner .left .bottom{
+    width: 100%;
+    height: 34%;
+    margin-top: 8px;
+}
+.main .banner .left .bottom .left{
+    width: 50%;
+    height: 100%;
+    background-image: url("../../img/zjd.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.main .banner .left .bottom .right{
+    width: 50%;
+    height: 100%;
+    background-image: url("../../img/zzs.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.main .banner .right{
+    width: 24%;
+    height: 100%;
+    float: left;
+}
+.main .banner .right .top{
+    width: 100%;
+    height: 60%;
+    background-image: url("../../img/txsh.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 8px;
+}
+.main .banner .right .bottom{
+    width: 100%;
+    height: 40%;
+    background-image: url("../../img/wssj.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.main .user{
+    width: 25%;
+    background-image: url("../../img/user_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.main .user .user_icon{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.main .user .nac{
+    margin-top: 10px;
+}
+
+.main .user .nac li{
+    display: block;
+    float: left;
+    color: #3C3C3C;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    width: 60px;
+    position: relative;
+}
+
+.main .user .nac li .line{
+    width: 40px;
+    height: 4px;
+    background-color: #FF5000;
+    position: absolute;
+    top: 20px;
+    border-radius: 2px;
+    left: 10px;
+}
+
+.main .user .gn{
+    width: 100%;
+}
+.main .user .gn li{
+    display: block;
+    float: left;
+    width: 25%;
+    border: 1px solid #f4f4f4;
+    padding: 14px 0;
+    box-sizing: border-box;
+}
+.main .user .gn li:hover{
+    border: 1px solid #FF5000;
+}
+.main .user .gn li a{
+    text-align: center;
+}
+.main .user .gn li p{
+    font-size: 13px;
+    color: #333333;
+}
+.main .user .gn li a div{
+    width: 100%;
+    height: 40px;
+    background-image: url("../../img/icon.png");
+    background-repeat: no-repeat;
+    background-position: center 8px;
+    background-size: 32%;
+}
+
+.main .user .app{
+    display: block;
+}
+.main .user .app .icon{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.main .user .app img{
+    width: 36px;
+    height: 36px;
+}
+
+.main .exhibition{
+    width: 15%;
+    background-color: white;
+    border: 1px solid #F22E00;
+    box-sizing: border-box;
+}
+
+.main .exhibition ul li div{
+    display: none;
+    width: 790px;
+    height: 580px;
+    background-color: rebeccapurple;
+    position: absolute;
+    z-index: 777;
+    left: 190px;
+}
+
+.main .exhibition ul li:hover div{
+    display: block;
+}
+
+
+
+.exhibition li{
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    transition: 0.3s;
+    position: relative;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+
+.exhibition li:hover{
+    background-color: #FFE4DC;
+}
+
+.exhibition a{
+    color: #666666;
+    font-size: 15px;
+}
+.exhibition i{
+    height: 36px;
+    line-height: 36px;
+    color: #666666;
+    font-size: 15px;
+    position: absolute;
+    right: 20px;
+}
+.exhibition a:hover{
+    color: #F22E00;
+    text-decoration: #F22E00;
+}

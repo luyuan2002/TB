@@ -1,0 +1,65 @@
+.base_search{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    height: 58px;
+    z-index: 1000;
+}
+
+.base_search .container{
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.base_search .logo{
+    position: absolute;
+    left: 0;
+}
+.base_search .layout{
+    border: 2px solid #FF5000;
+    border-radius: 50px;
+    display: inline-flex;
+    width: 780px;
+    height: 36px;
+    align-items: center;
+    position: relative;
+    padding-left: 20px;
+}
+
+.base_search .layout input{
+    width: 300px;
+    background:none;
+    outline:none;
+    border:none;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.base_search .layout input:focus{
+    border: none;
+}
+
+.base_search .layout .camera{
+    position: absolute;
+    right: 120px;
+    color: #666666;
+}
+
+.base_search .layout button{
+    background: linear-gradient(#FF8900,#FF5600);
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 宋体;
+    border-radius: 0 20px 20px 0;
+    position: absolute;
+    right: 0;
+
+}

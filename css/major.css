@@ -1,0 +1,19 @@
+/*底部Banner*/
+@import "major/ct_banner.css";
+/*(有好货)*/
+@import "major/goods.css";
+/*(热卖单品)*/
+@import "major/hot.css";
+/*主区域(主题市场 轮播图 用户)*/
+@import "major/main.css";
+/*推荐(每日好店 淘宝直播)*/
+@import "major/recommend.css";
+/*搜索*/
+@import "major/search.css";
+/*主题(主题市场)*/
+@import "major/subject.css";
+/*特色好物*/
+@import "major/tshw.css";
+.major{
+    /*background-color: white;*/
+}

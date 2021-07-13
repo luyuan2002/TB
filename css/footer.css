@@ -1,0 +1,84 @@
+.footer{
+    background-color: white;
+
+	margin-top: 10px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.footer ul{
+	width: 100%;
+	height: 100%;
+}
+.footer ul li div{
+	display: flex;
+	align-items: center;
+}
+.footer ul li span{
+	font-size: 17px;
+	font-weight: bold;
+	margin-left: 4px;
+}
+.footer ul li img{
+	width: 44px;
+	height: 54px;
+}
+.footer ul .item{
+	box-sizing: border-box;
+	width: 25%;
+	float: left;
+	padding: 20px;
+}
+.footer ul li ul{
+	margin-top: 10px;
+}
+.footer ul li ul li{
+	display: inline-block;
+	height: 26px;
+	line-height: 26px;
+}
+.footer ul li ul li a{
+	color: #666;
+	height: 26px;
+	font-size: 14px;
+}
+
+.footer .menu2 li{
+	display: block;
+}
+.footer .bottom{
+
+}
+
+.footer .bottom .left{
+	width: 49%;
+	float: left;
+	padding-left: 10px;
+}
+.footer .bottom .right{
+	width: 50%;
+	float: left;
+}
+.footer a{
+	color: #666;
+	font-size: 14px;
+	height: 22px;
+	line-height: 22px;
+}
+
+.footer a:hover{
+	color: #FF5000;
+}
+
+.footer .right p {
+	text-align: end;
+}
+
+
+.footer .right .ba{
+	display: inline-block;
+	background-image: url("../img/beian5.jpg");
+	background-repeat: no-repeat;
+	background-position: -861px 0;
+	width: 20px;
+	height: 20px;
+}

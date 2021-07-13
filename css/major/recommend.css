@@ -1,0 +1,81 @@
+.recommend{
+    background-color: #F4F4F4;
+    position: relative;
+}
+
+.recommend div{
+    box-sizing: border-box;
+}
+.recommend .mrhd{
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    float: left;
+}
+.recommend .tbzb{
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    float: left;
+}
+
+.recommend .header{
+    display: flex;
+    align-items: center;
+}
+.recommend .header img{
+    width: 82px;
+}
+
+.recommend .header .title{
+    font-size: 13px;
+    color: #999999;
+    margin-left: 10px;
+}
+
+.recommend .content{
+}
+
+.recommend .title{
+    margin: 10px 0;
+    color: #6a6a6a;
+}
+.recommend .title:hover{
+    color: #FF5000;
+}
+.recommend .content .top{
+}
+.recommend .content .top .left{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.recommend .content .top .right{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.recommend .img_content{
+    width: 100%;
+    height: 100%;
+}
+.recommend .img_content .img_left{
+    width: 68%;
+    height: 180px;
+    float: left;
+}
+.recommend .img_content .img_right_content{
+    width: 29%;
+    height: 100%;
+    float: left;
+    margin-left: 4px;
+}
+.recommend .img_content .img_right_content .img_top{
+    width: 100%;
+}
+.recommend .img_content .img_right_content .img_bottom{
+    width: 100%;
+    margin-top: 0px;
+}

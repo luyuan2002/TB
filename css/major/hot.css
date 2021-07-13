@@ -1,0 +1,60 @@
+
+.hot{
+
+}
+.hot .title{
+    padding: 20px;
+}
+.hot .sp{
+    height: 60px;
+}
+.hot .sp li{
+    display: inline-block;
+    line-height: 60px;
+    margin-left: 10px;
+}
+.hot .sp li a{
+    color: #999999;
+    font-size: 13px;
+}
+
+.hot .sp li a:hover{
+    color: #F22E00;
+}
+
+.hot .line_text{
+    margin-top: 60px;
+    position: relative;
+}
+
+.hot .line_text .money{
+    color: #F22E00;
+    font-family: "微软雅黑";
+    font-size: 20px;
+}
+
+.hot .line_text .length{
+    color: #999999;
+    font-size: 13px;
+    position: absolute;
+    right: 0;
+}
+.hot .cast_inb li:hover a{
+    display: block;
+}
+.hot .cast_inb li a{
+    width: 100%;
+    background-color: #FF5000;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    line-height: 90px;
+    text-align: center;
+    font-size: 14px;
+    display: none;
+}
+.hot .cast_inb li a:hover{
+    text-decoration: underline;
+}

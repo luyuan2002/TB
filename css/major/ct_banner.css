@@ -1,0 +1,16 @@
+
+
+.ct_banner{
+    padding: 20px;
+    background-color: white;
+    margin-top: 10px;
+}
+.ct_banner img{
+    float: left;
+    width: 33%;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+.ct_banner img:hover{
+    border: 2px solid #F22E00;
+}
